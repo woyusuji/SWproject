@@ -1,0 +1,24 @@
+
+public class Librarian {
+	private String name;
+	
+	private void registerOneBorrower(String name,int stNum) {
+		
+	};
+	private String displaybooking() {
+		
+	};
+	private String displayBooksAvailableForloan() {
+		
+	};
+	private static void loanBook() {
+		
+	};
+	private static void returnBooks() {
+		
+	};
+	private static void lendBooks() {
+		
+	};
+
+}

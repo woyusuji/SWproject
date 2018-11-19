@@ -1,0 +1,12 @@
+//interface
+public class Borrower {
+	private String name;
+	private String StudentNumber;
+
+	public void toLend() {
+		
+	};
+	public void toReturn() {
+		
+	};
+}

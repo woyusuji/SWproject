@@ -1,8 +1,51 @@
+import java.util.TreeSet;
+import java.util.Set;
+
+public class Book{
+  private String title;
+  private String author;
+  private int catalogueNumber;
+
+  public  Book(String title, String author, int catalogueNumber){
+      Set<String> title = new TreeSet<String>();
+        title.add("a")
+        title.add("b");
+        title.add("c");
+        title.add("e");
+        title.add("d");
+
+      Set<String> author = new TreeSet<String>();
+        author.add("");
+        author.add("");
+        author.add("");
+        author.add("");
+        author.add("");
+
+      Set<int> catalogueNumber = new TreeSet<int>();
+        catalogueNumber.add(1);
+        catalogueNumber.add(2);
+        catalogueNumber.add(3);
+        catalogueNumber.add(4);
+        catalogueNumber.add(5);
 
 
-public class Book {
-	private int catalogueNumber;
-	private String author;
-	private String title;
+    for(String s:book){
+      System.out.println(s);
+    }
+  }
+public  class display{
 
+}
+public class attachBorrower{
+
+}
+public class detachBorrower{
+
+}
+public class getBorrower{
+
+}
+public class compareTo(obj:Object):boolean{
+
+}
 }

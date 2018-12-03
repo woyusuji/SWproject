@@ -33,19 +33,19 @@ public class Book{
       System.out.println(s);
     }
   }
-public  class display{
+public void display(){
 
 }
-public class attachBorrower{
+public void attachBorrower(){
 
 }
-public class detachBorrower{
+public void detachBorrower(){
 
 }
-public class getBorrower{
+public void getBorrower(){
 
 }
-public class compareTo(obj:Object):boolean{
+public void compareTo(obj:Object):boolean{
 
 }
 }

@@ -1,12 +1,39 @@
-//interface
-public class Borrower {
-	private String name;
-	private String StudentNumber;
+package teamprojecttest;
 
-	public void toLend() {
-		
-	};
-	public void toReturn() {
-		
-	};
+
+import java.util.LinkedList;
+
+public class Borrower {
+	private String studentName;
+	private int studentNumber;
+	private Book book;
+	private static LinkedList<Book> borrowBook;
+	
+	public Borrower(String studentName, int studentNumber){
+		this.studentName = studentName;
+		this.studentNumber = studentNumber;
+	}
+	
+	public String getStudentName() {
+		return studentName;
+	}
+	
+	public int getStudentNumber() {
+		return studentNumber;
+	}
+	
+	public void attachBook(Book book) {
+		this.book = book;
+		borrowBook = new LinkedList<Book>();
+	}
+	
+	public void detachBook() {
+		borrowBook.remove();
+		this.book = null;
+	}
+	
+	public int hashCode() {
+		return super.hashCode();
+	} 
+
 }

@@ -1,0 +1,29 @@
+package teamprojecttest;
+
+public class App {
+	public static void main(String args[]) {
+		Library lib = new Library("Library");
+		lib.registerOneBorrower("name", 2017315023);
+		lib.registerOneBook("a", "b", 1);
+		
+		System.out.println("--------ｴ・箍｡ｴﾉﾇﾑﾃ･-------");
+		lib.displayBooksForLoan();
+		System.out.println("---------ｴ・篌ﾒｰ｡ｴﾉﾇﾑﾃ･------");
+		
+		lib.displayBooksOnLoan();
+		lib.lendOneBook(1, 2017315023);	
+		System.out.println("------------ｴ・箍｡ｴﾉ---");
+		lib.displayBooksForLoan();
+		System.out.println("--------------ｴ・篌ﾒｰ｡ｴﾉ-");
+		lib.displayBooksOnLoan();
+		lib.returnOneBook(1);
+		System.out.println("------------ｴ・箍｡ｴﾉ---");
+		lib.displayBooksForLoan();
+		System.out.println("--------------ｴ・篌ﾒｰ｡ｴﾉ-");
+		lib.displayBooksOnLoan();
+		
+		//////ｼ､ﾇﾊｿ・!!!!!!!!
+	}
+}
+
+
